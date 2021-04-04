@@ -1,5 +1,8 @@
-const palindromes = function() {
+const palindromes = function (str) {
+  var reversedText  = str.split('').reverse().join('');
 
-}
 
-module.exports = palindromes
+return str === reversedText;
+
+};
+module.exports = palindromes;
